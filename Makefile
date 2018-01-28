@@ -1,6 +1,7 @@
 CXX = g++
 
 CXXFLAGS = \
+				 -std=c++11 \
 				 -pthread -fPIC \
 				 -DCAFFE_VERSION=1.0.0 \
 				 -DNDEBUG \

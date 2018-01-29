@@ -31,3 +31,7 @@ $ ./classification \
     PATH_TO_CAFFE/data/ilsvrc12/synset_words.txt \
     PATH_TO_CAFFE/examples/images/cat.jpg
 ```
+
+## License
+
+This repository is released under the [BSD 2-Clause license](LICENSE).

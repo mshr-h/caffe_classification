@@ -23,7 +23,8 @@ $ make all
 
 ```sh
 $ ./PATH_TO_CAFFE/scripts/download_model_binary.py models/bvlc_alexnet
-$ ./data/ilsvrc12/get_ilsvrc_aux.sh
+$ ./PATH_TO_CAFFE/data/ilsvrc12/get_ilsvrc_aux.sh
+$ make
 $ ./classification \
     PATH_TO_CAFFE/models/bvlc_alexnet/deploy.prototxt \
     PATH_TO_CAFFE/models/bvlc_alexnet/bvlc_alexnet.caffemodel \
